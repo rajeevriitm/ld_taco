@@ -8,7 +8,7 @@
 5. ```rake db:seed``` optional
 
 ### Heroku API setup
-* Base url is
+* Base url is ```https://ld-taco.herokuapp.com/v1```
 * ```GET /tacos``` - Returns a list of all tacos in the database
 * ```GET /tacos/:id``` - returns the data of the specific taco
 * ```POST /tacos``` - Creates a taco with the given parameters. The params ```name``` and ```price``` are required for a valid taco and ```price``` should be an integer.
